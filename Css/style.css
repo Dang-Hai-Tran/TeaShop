@@ -1,0 +1,139 @@
+* {
+  /* border: 1px solid red; */
+}
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.375rem;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+header {
+  margin: auto;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+}
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+header nav {
+  margin-left: 10px;
+}
+a {
+  margin: 0 10px 0 0;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main section {
+  min-height: 700px;
+}
+#ourmission {
+  margin-top: 70px;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../Content/img-mission-background.webp");
+  background-size: cover;
+  border: 1px solid seashell;
+}
+#ourmission article {
+  width: 100%;
+  background-color: black;
+}
+#ourmission h2 {
+  margin: 10px auto;
+}
+#ourmission h4 {
+  margin: 10px auto;
+}
+#teaofthemonth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#teaofthemonth h2 {
+  width: 100%;
+  margin: 10px auto;
+}
+#teaofthemonth h4 {
+  width: 100%;
+  margin: 10px auto;
+}
+#teaofthemonth article {
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+}
+#teaofthemonth article div {
+  display: inline-flex;
+  flex-direction: column;
+}
+#teaofthemonth article div img {
+  max-width: 300px;
+  max-height: 200px;
+}
+#locations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  min-height: 500px;
+  background-image: url('../Content/img-locations-background.webp');
+  background-size: cover;
+}
+#locations h2 {
+  margin-bottom: 15px;
+  margin-top: 40px;
+}
+#locations article {
+  flex-direction: row;
+  justify-content: space-between;
+}
+#locations article div {
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  margin: auto 20px;
+  background-color: black;
+  justify-content: space-around;
+}
+#locations article div h3,
+#locations article div h4 {
+  margin: auto;
+}
+footer {
+  flex-direction: column;
+  width: 100%;
+}
+footer div {
+  height: 200px;
+}
+footer div h5 {
+  text-align: center;
+}
+footer .copyright {
+  text-align: left;
+  margin: auto 20px;
+}
